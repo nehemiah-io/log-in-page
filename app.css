@@ -1,0 +1,99 @@
+body{
+background-image: linear-gradient(-98deg, rgba(114,113,129,0.91) 45%, rgba(9,10,16,0.66) 100%);
+}
+
+
+input {
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+  padding: 10px; 
+  margin: 10px;
+  border-radius: 15px; 
+  background: #D8D8D8;
+  text-align: center;
+  color: black;
+}
+
+label{ 
+font-family: Helvetica;
+font-size: 15px;
+  
+}
+
+button{
+  text-align: center;
+  display: block;
+  width: 200px; 
+  margin: auto;
+   
+}
+
+.submit{
+
+ font-size: 30px;
+ color: linear-gradient(-180deg, #FFFFFF 0%, #878484 100%);
+ background-image: linear-gradient(-180deg, #FFFFFF 0%, #878484 100%);
+ max-width: 100%;
+ float: left;
+ margin: 10px auto;
+ padding-right: 10px;
+
+}
+
+.submit:hover{
+  background-image: none;
+}
+
+.facebook{
+  font-family: LucidaGrande;
+  font-size: 20px;
+  background: #3B5998;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 10px auto;
+  color: #FFFFFF;
+}
+
+.google{
+  background: #C22020;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  font-family: LucidaGrande;
+  font-size: 20px;
+  color: #FFFFFF;
+  max-width: 100%;
+  padding: 20px;
+}
+
+p{
+  text-align: center;
+  font-size: 15px;
+  font-family: LucidaGrande;
+  color: #FFFFFF;
+}
+
+.icon{
+  width:127;
+  margin:auto;
+
+}
+
+form{
+  width: 400px;
+  margin: auto;
+}
+
+.container{
+  width:200%;
+  position: absolute;
+}
+
+.signup{
+  float:left;
+}
+
+.login{
+  float: left;
+  margin: auto;
+}
